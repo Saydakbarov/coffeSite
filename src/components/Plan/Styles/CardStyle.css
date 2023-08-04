@@ -1,0 +1,9 @@
+.card{
+    background-color: #F4F1EB;
+}
+.card:hover{
+    background-color: #FDD6BA;
+}
+.active{
+    background-color: #0E8784;
+}
