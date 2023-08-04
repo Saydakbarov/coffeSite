@@ -45,7 +45,11 @@ export default function CreatePlan() {
       }}
     >
       <Grid container gap={12}>
-        <Grid item lg={2}>
+        <Grid
+          item
+          lg={2}
+          sx={{ display: { xs: "none", sm: "none", md: "block", lg: "block" } }}
+        >
           {PlanMenu.map((v, i) => (
             <Box
               key={i}
